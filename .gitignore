@@ -32,4 +32,4 @@
 .idea/
 vendor/
 Gemfile.lock
-config/database.yml
+.env
