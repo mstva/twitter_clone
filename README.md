@@ -1,1 +1,1 @@
-##### Twitter Clone using Ruby on Rails
+Twitter Clone with Ruby on Rails
