@@ -3,19 +3,14 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.2'
 
-gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
+gem 'rails', '~> 6.0.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
-
-# gem 'jbuilder', '~> 2.7'
-# gem 'redis', '~> 4.0'
-# gem 'bcrypt', '~> 3.1.7'
-
-# gem 'image_processing', '~> 1.2'
+gem 'sass-rails', '>= 6'
+gem 'jbuilder', '~> 2.7'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 
-gem 'rack-cors'
 gem 'devise'
 
 group :development, :test do
@@ -23,6 +18,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'web-console', '>= 3.3.0'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
